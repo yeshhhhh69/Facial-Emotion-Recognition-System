@@ -7,7 +7,7 @@ A professional-grade real-time facial emotion recognition system built with deep
 ![React](https://img.shields.io/badge/React-18-blue?style=flat-square)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green?style=flat-square)
 
-## 🎯 Overview
+## Overview
 
 This project implements a state-of-the-art emotion recognition system that can detect and classify 7 different emotions from facial expressions in real-time:
 
@@ -21,15 +21,15 @@ This project implements a state-of-the-art emotion recognition system that can d
 
 ### Key Features
 
-- ✨ **Real-time Detection**: Live webcam feed processing with WebSocket
-- 🎯 **Multi-face Support**: Detect and analyze multiple faces simultaneously
-- 📊 **Analytics Dashboard**: Track emotion patterns with interactive charts
-- 🎨 **Modern UI**: Beautiful glassmorphism design with smooth animations
-- 🚀 **Fast & Accurate**: CNN model with 60%+ accuracy on FER2013 dataset
-- 🔒 **Privacy First**: All processing happens locally, no data stored on servers
-- 📤 **Export Functionality**: Export detection history as JSON
+- **Real-time Detection**: Live webcam feed processing with WebSocket
+- **Multi-face Support**: Detect and analyze multiple faces simultaneously
+- **Analytics Dashboard**: Track emotion patterns with interactive charts
+- **Modern UI**: Beautiful glassmorphism design with smooth animations
+- **Fast & Accurate**: CNN model with 60%+ accuracy on FER2013 dataset
+- **Privacy First**: All processing happens locally, no data stored on servers
+- **Export Functionality**: Export detection history as JSON
 
-## 🏗️ Architecture
+## Architecture
 
 ### Technology Stack
 
@@ -54,7 +54,7 @@ This project implements a state-of-the-art emotion recognition system that can d
 - Trained on FER2013 dataset
 - ~3-4 million parameters
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - Node.js 16 or higher
@@ -62,7 +62,7 @@ This project implements a state-of-the-art emotion recognition system that can d
 - Webcam (for live detection)
 - Kaggle account (for dataset download)
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -143,7 +143,7 @@ npm run dev
 
 The frontend will be available at `http://localhost:5173`.
 
-## 📖 Usage
+## Usage
 
 ### Live Detection
 
@@ -166,7 +166,7 @@ The frontend will be available at `http://localhost:5173`.
 3. Export detection history as JSON
 4. Clear history when needed
 
-## 🎨 Project Structure
+## Project Structure
 
 ```
 Emotion Recognition/
@@ -192,7 +192,7 @@ Emotion Recognition/
 └── README.md                 # This file
 ```
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### REST API
 
@@ -205,7 +205,7 @@ Emotion Recognition/
 
 - `WS /ws/predict` - Real-time emotion prediction from webcam frames
 
-## 📊 Model Performance
+## Model Performance
 
 - **Dataset**: FER2013 (~35,000 images)
 - **Test Accuracy**: >60%
@@ -216,7 +216,7 @@ Emotion Recognition/
 
 Detailed metrics are available after training in `backend/saved_models/evaluation_metrics.json`.
 
-## 🎯 Future Improvements
+## Future Improvements
 
 - [ ] Add emotion intensity detection
 - [ ] Implement facial landmark detection
@@ -226,25 +226,25 @@ Detailed metrics are available after training in `backend/saved_models/evaluatio
 - [ ] Model quantization for faster inference
 - [ ] Multi-language support
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is created for educational purposes as a college Deep Learning project.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **FER2013 Dataset**: Challenges in Representation Learning: Facial Expression Recognition Challenge
 - **TensorFlow/Keras**: Deep learning framework
 - **FastAPI**: Modern Python web framework
 - **React**: UI library
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please reach out through the project repository.
 
 ---
 
-**Built with ❤️ for Deep Learning Course Project**
+**Built by Yeshved Salelkar for Deep Learning Course Project**
