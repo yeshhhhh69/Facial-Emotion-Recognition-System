@@ -4,7 +4,7 @@
 
 ### Step 1: Navigate to frontend directory
 ```powershell
-cd "C:\Users\user\Emotion Recognition\frontend"
+cd "C:\Users\username\Emotion Recognition\frontend"
 ```
 
 ### Step 2: Clean up old installations (if any issues)
@@ -81,7 +81,7 @@ vite
 ## Quick Copy-Paste (All in One)
 
 ```powershell
-cd "C:\Users\user\Emotion Recognition\frontend"
+cd "C:\Users\username\Emotion Recognition\frontend"
 npm install --legacy-peer-deps
 npm run dev
 ```
