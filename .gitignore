@@ -1,0 +1,71 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Node / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+*.local
+
+# Datasets and Large Data Files
+ml_pipeline/data/fer2013/
+ml_pipeline/data/*.csv
+ml_pipeline/data/*.tar.gz
+ml_pipeline/data/*.zip
+*.h5.bak
+kaggle.json
+
+# Model Checkpoints and Training Logs (keep primary emotion_model.h5)
+backend/saved_models/best_model_*.h5
+backend/saved_models/emotion_model_saved/
+backend/saved_models/logs/
+*.tfevents.*
+ml_pipeline/saved_models/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

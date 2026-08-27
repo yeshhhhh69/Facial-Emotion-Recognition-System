@@ -1,0 +1,7 @@
+# ABSTRACT
+
+Facial emotion recognition is a fundamental component of affective computing with applications in human-computer interaction, mental health monitoring, and customer service. This project presents a real-time emotion recognition system using Convolutional Neural Networks (CNNs) trained on the FER2013 dataset to classify seven distinct emotions: Angry, Disgust, Fear, Happy, Sad, Surprise, and Neutral. The proposed CNN architecture consists of four convolutional blocks with batch normalization and dropout regularization, achieving 67.12% accuracy on the test set. The system employs OpenCV's Haar Cascade classifier for face detection and supports multi-face analysis in a single frame.
+
+A comprehensive web-based application was developed using FastAPI for the backend and React for the frontend, enabling real-time emotion detection through webcam feeds and static image uploads. The system achieves inference latency of less than 100ms per image and supports concurrent users through WebSocket-based streaming. The implementation demonstrates the practical application of deep learning in affective computing, providing an intuitive interface for emotion visualization with analytics dashboard and export functionality. This work contributes to the advancement of automated emotion recognition systems suitable for real-world deployment.
+
+**Keywords**: Facial Emotion Recognition, Convolutional Neural Networks, Deep Learning, FER2013, Real-time Processing, FastAPI, React, Computer Vision
